@@ -1,12 +1,9 @@
 body{
      background-color:#000033;
-   
 }
 
 .container{
-    display: flex;
-    /* justify-content: space-between; */
-    
+    display: flex;  
 }
 
 .navbar {
@@ -19,7 +16,6 @@ body{
     justify-content: space-between;
     margin: -10px;
     font-weight: bold;
-   
   }
 
   .space{
@@ -34,7 +30,6 @@ body{
     width: 40px;
     margin-left: 850px;
     margin-top: -100px;
-    
   }
 
   .logo1{
@@ -43,9 +38,15 @@ body{
     margin-right: 900px;
     margin-top: -60px;
     margin-bottom: 60px;
-    
   }
 
+
+  .sabji{
+    margin-top: 10px;
+     /* width: 1200px; */
+      height: 550px; 
+      margin-left: -10px;
+  }
   .text{
     color: white;
     text-align: justify;
@@ -70,8 +71,6 @@ body{
     margin-top: 20px;
     justify-content: center;
     margin: 20px;
- 
-    /* box-shadow: 0px 0px 5px 0px white; */
   }
 
   .fruit-card:hover{
@@ -92,7 +91,6 @@ body{
     justify-content: center;
     margin-top: -30px;
     color: #000033;
-    
   }
 
   .add-to-cart{
@@ -100,7 +98,6 @@ body{
     width: 20px;
     margin-top: 5px;
     margin-bottom: -5px;
-   
   }
 
   .btn{
@@ -114,7 +111,6 @@ body{
    color: white;
    margin-top: 10px;
    cursor: pointer;
-   
   }
 
   .btn:hover{
@@ -128,8 +124,6 @@ body{
     font-weight: bold;
     margin-top: 5px;
     color: #000033;
-    
-    
   }
   
 /* footer */
@@ -139,14 +133,12 @@ footer {
   color:#000033;
   text-align: center;
   padding: 20px;
-  margin: -10px;
-  
+  margin: -10px; 
 }
 
 ul{
   list-style: none;
-  margin-left: -40px; 
-
+  margin-left: -40px;
 }
 
 .row{
@@ -162,11 +154,11 @@ ul{
   text-align: center;
   color: #000033;
 }
+
 h4{
   font-size: 20px;
   color: #000033;
   text-transform: capitalize;
-  /* margin-bottom: 30px; */
   margin: 30px ;
 }
 
@@ -175,16 +167,13 @@ h4{
   color:#000033;
   font-weight: bold;
   font-size: 18px;
-
 }
 
 .paragraph{
   margin-left: -300px; 
   padding: 0px;
-  /* padding-bottom: 10px; */
   color: #000033;
   margin-top: -10px;
- 
 }
 
 .icon{
@@ -192,6 +181,87 @@ h4{
   width: 30px;
   margin-top: 0px;
   margin-bottom: -10px; 
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+  .text{
+    font-size: 15px;
+    margin: 15px;
+  }
+
+  .navbar{
+    height: 20px;
+    width: 100%;
+  }
+
+  .logo1{
+    height: 50px;
+  }
+  
+  .space{
+    font-size: 15px;
+    margin: -10px;
+    margin-left: 20px;
+  }
+
+    .logo{
+      margin-left: 400px;
+      height: 40px;
+      width: 40px;
+    margin-top: -80px;
+  }
+
+  footer{
+    width: 100%;
+   
+   margin:-30px; 
+   margin-top: 10px;   
+  }
+
+  h4{
+    font-size: 15px;
+  }
+
+  .no-underline{
+    font-size: 13px;
+  }
+  .icon{
+    height: 20px;
+    width: 20px;
+  }
+
+  .footer-col{
+    width: 25%;
+   
+  }
+
+  .paragraph{
+    font-size: 12px;
+  }
+
+  .row{
+    margin-left: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .map{
+    height: 0px;
+    width: 0px;
+  }
+
+  .head{
+    font-size: 0px;
+  }
+
+  .sabji{
+    /* width: 00px; */
+    height: 200px;
+    margin-bottom: 300px;
+  }
+  
 }
 
   
