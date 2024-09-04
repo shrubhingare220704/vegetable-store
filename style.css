@@ -211,7 +211,7 @@ h4{
 }
 
 
-@media screen and (min-width: 550px) and (max-width: 650px){
+@media only screen and (max-width: 500px){
   .text{
     font-size: 15px;
     margin: 15px;
@@ -220,12 +220,14 @@ h4{
   }
 
   .navbar{
-    height: 20px;
-    width: 550px;
+    height: 25px;
+    width: 450px;
   }
 
   .logo1{
-    height: 50px;
+    height: 40px;
+    width: 80px;
+    margin-bottom: 10px;
   }
   
   .space{
@@ -235,14 +237,14 @@ h4{
   }
 
   .logo{
-    margin-left: 400px;
+    margin-left: 350px;
     height: 40px;
     width: 40px;
     margin-top: -80px;
   }
 
   footer{
-   width:590px ; 
+   width:490px ; 
    margin:-30px; 
    margin-top: 10px;   
    justify-content: center;
@@ -250,10 +252,16 @@ h4{
 
   h4{
     font-size: 15px;
+    margin-left: -10px;
   }
 
   .no-underline{
     font-size: 13px;
+    margin-left: -30px;
+  }
+
+  .follow-us{
+    margin-left: 20px;
   }
 
   .icon{
@@ -285,7 +293,7 @@ h4{
   }
 
   .sabji{
-    width: 590px;
+    width: 490px;
     height: 400px;
     margin-bottom: 300px;
     justify-content: center;
@@ -304,13 +312,174 @@ h4{
   .about{
   margin-top: 350px;
 }
- body{
  
-  justify-content: center;
- }
 }
 
+ @media screen and (min-width: 501px) and (max-width:768px){
+  .text{
+    font-size: 18px;
+    margin: 15px;
+    justify-content: center;
+    
+  }
+
+  .navbar{
+    height: 25px;
+    width: 680px;
+  }
+
+  .logo1{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .space{
+    font-size: 20px;
+    margin: 30px;
+    margin-left: -10px;
+    text-align: center;
+    
+  }
+
+  .logo{
+    margin-left: 580px;
+    height: 40px;
+    width: 40px;
+    margin-top: -80px;
+  }
+
+  footer{
+   width:720px ; 
+   margin:-30px; 
+   margin-top: 10px;   
+   justify-content: center;
+  }
+
+  h4{
+    font-size: 15px;
+     margin-left: -30px; 
+  }
+
+  .no-underline{
+    font-size: 13px;
+    margin-left: -30px;
+  }
+
+  .icon{
+    height: 20px;
+    width: 20px;
+  }
+
+  .footer-col{
+    width: 25%;
+  }
+
+  .paragraph{
+    font-size: 12px;
+  }
+
+  .row{
+    margin-left: 270px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .map{
+    height: 150px;
+    width: 200px;
+    margin-left: -20px;
+    margin: 20px;
+  }
+
+  .head{
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .sabji{
+    width: 720px;
+    height: 400px;
+    margin-bottom: 300px;
+    justify-content: center;
+  } 
+  
+  .heading{
+    font-size:30px ;
+    margin-top: -650px;
+  }
+
+  .heading1{
+    font-size:28px ;
+    margin-top:40px;
+  }
+
+  .about{
+  margin-top: 350px;
+}
+.follow-us{
+  margin-left: 10px;
+}
+} 
+
+/* @media screen and (min-width:769) and (max-width:1024) {
+  .navbar{
+    height: 25px;
+    width: 800px;
+  }
+
+  .logo1{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .space{
+    font-size: 15px;
+    margin: 30px;
+    margin-left: -10px;
+  }
+
+  .logo{
+    margin-left: 500px;
+    height: 40px;
+    width: 40px;
+    margin-top: -80px;
+  }
+
+  footer{
+   width:700px ; 
+   margin:-30px; 
+   margin-top: 10px;   
+   justify-content: center;
+  }
+
+  .map{
+    height: 150px;
+    width: 250px;
+  }
+
+  .head{
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .sabji{
+    width: 720px;
+    height: 400px;
+    margin-bottom: 300px;
+    justify-content: center;
+  } 
+
+  .about{
+    margin-top: 350px;
+  }
+  .follow-us{
+    margin-left: 10px;
+  }
+  }  */
+
 
 
   
-  
+   
